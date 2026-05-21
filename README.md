@@ -4,14 +4,14 @@ This project aims to enhance the working environment on Windows.
 
 ## How to?
 
-1. Download the latest version of the setup program in [here](https://github.com/valinet/ExplorerPatcher/releases/latest).
+1. Download the latest setup program from the [Releases page](https://github.com/valinet/ExplorerPatcher/releases/latest).
    * Choose `ep_setup.exe` if your device uses an Intel or AMD processor, or `ep_setup_arm64.exe` if your device uses a Snapdragon processor.
-1. Run the installer. It will automatically prompt for elevation, after which it will close `explorer.exe` and install the necessary files. When done, you will see the desktop again and the Windows 10 taskbar.
-1. Right-click the taskbar and choose "Properties".
-1. To change the taskbar style, go to the "Taskbar" section and look for "Taskbar style".
-1. To use the Windows 10 Start menu, go to the "Start menu" section and change the Start menu style to Windows 10.
-1. To use the Windows 10 Alt+Tab, go to the "Window switcher" section and change the "Window switcher (Alt+tab) style" to Windows 10.
-1. Feel free to check other configuration options.
+2. Run the installer. It will automatically prompt for elevation, after which it will close `explorer.exe` and install the necessary files. When done, you will see the desktop again and the Windows 10 taskbar.
+3. Right-click the taskbar and choose "Properties".
+4. To change the taskbar style, go to the "Taskbar" section and look for "Taskbar style".
+5. To use the Windows 10 Start menu, go to the "Start menu" section and change the Start menu style to Windows 10.
+6. To use the Windows 10 Alt+Tab, go to the "Window switcher" section and change the "Window switcher (Alt+Tab) style" to Windows 10.
+7. Feel free to check other configuration options.
 
 That's it!
 
@@ -19,7 +19,7 @@ That's it!
 
 ## Uninstalling
 
-* Right click the taskbar then click "Properties" or search for "ExplorerPatcher", and go to "Uninstall" section or
+* Right-click the taskbar then click "Properties" or search for "ExplorerPatcher", and go to "Uninstall" section or
 * Use "Programs and Features" in Control Panel, or "Apps and features" in the Settings app or
 * Run `ep_setup.exe /uninstall` or
 * Rename `ep_setup.exe` to `ep_uninstall.exe` and run that.

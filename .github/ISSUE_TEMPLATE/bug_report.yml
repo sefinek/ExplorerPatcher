@@ -38,11 +38,11 @@ body:
         Windows 11 24H2 26100.2314 ARM64
     validations:
       required: true
-      
+
   - type: textarea
     attributes:
-      label: 3rd party tweak software installed
-      description: A list of 3rd Party software that may modify the shell in someway.
+      label: Third-party tweak software installed
+      description: A list of third-party software that may modify the shell in some way.
       placeholder: |
         Example:
         TranslucentTB
@@ -52,7 +52,7 @@ body:
         Wallpaper Engine
     validations:
       required: true
-      
+
   - type: textarea
     attributes:
       label: Describe the bug
