@@ -6,9 +6,9 @@ This project aims to enhance the working environment on Windows.
 
 ## How to?
 
-1. Download the latest setup program from the [Releases page](https://github.com/valinet/ExplorerPatcher/releases/latest).
-   - Choose `ep_setup.exe` if your device uses an Intel or AMD processor.
-   - Choose `ep_setup_arm64.exe` if your device uses a Snapdragon processor.
+1. Download the latest setup program from the official [Releases page](https://github.com/valinet/ExplorerPatcher/releases/latest). If your antivirus blocks or deletes the download, see the warning below about false detections.
+   - Choose `ep_setup.exe` if your device uses an **Intel or AMD** processor.
+   - Choose `ep_setup_arm64.exe` if your device uses a **Snapdragon** processor.
 2. Run the installer. It will automatically prompt for elevation, after which it will close `explorer.exe` and install the necessary files. When done, you will see the desktop again and the Windows 10 taskbar.
 3. Right-click the taskbar and choose "Properties".
 4. To change the taskbar style, go to the "Taskbar" section and look for "Taskbar style".
@@ -19,14 +19,18 @@ This project aims to enhance the working environment on Windows.
 That's it!
 
 > [!WARNING]  
-> **False antivirus detections**: the setup files are not digitally signed, so Windows Defender, SmartScreen, or other antivirus software may flag them as a threat and block them from running (this is a false positive).
-> Just make sure you download the file (`ep_setup.exe` or `ep_setup_arm64.exe`) from a trusted source, such as [GitHub Releases](https://github.com/valinet/ExplorerPatcher/releases/latest).
+> - **False antivirus detections**: the setup files are not digitally signed, so Windows Defender, SmartScreen, or other antivirus software may flag them as threats and block them from running (these are false positives). Make sure you download the setup file only from [valinet/ExplorerPatcher/releases](https://github.com/valinet/ExplorerPatcher/releases/latest).
 >
-> **Windows updates**: with each new Windows 11 release, Microsoft removes more and more of the features left over from Windows 10.
-> ExplorerPatcher reimplements them on its own and grafts them back into the system, so after major Windows updates some features may temporarily stop working until the project catches up with the new version of Windows.
+>   If Windows Defender keeps blocking or removing the setup file, add an exclusion for it:
+>   1. Open **Windows Security** > **Virus & threat protection**.
+>   2. Under **Virus & threat protection settings**, click **Manage settings**.
+>   3. Scroll down to **Exclusions** and click **Add or remove exclusions**.
+>   4. Click **Add an exclusion**, choose **File**, and select the downloaded setup file.
+>
+> - **Windows updates**: with each new Windows 11 release, Microsoft removes more and more of the features inherited from Windows 10. ExplorerPatcher reimplements these features and integrates them back into the system, so after major Windows updates some features may temporarily stop working until the project is updated to support the new Windows version.
 
 > [!NOTE]  
-> Some features may be unavailable on some Windows versions.
+> Some features may be unavailable on certain Windows versions.
 
 
 ## Uninstalling
