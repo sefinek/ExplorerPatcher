@@ -6,7 +6,8 @@ This project aims to enhance the working environment on Windows.
 ## How to?
 
 1. Download the latest setup program from the [Releases page](https://github.com/valinet/ExplorerPatcher/releases/latest).
-   * Choose `ep_setup.exe` if your device uses an Intel or AMD processor, or `ep_setup_arm64.exe` if your device uses a Snapdragon processor.
+   * Choose `ep_setup.exe` if your device uses an Intel or AMD processor.
+   * Choose `ep_setup_arm64.exe` if your device uses a Snapdragon processor.
 2. Run the installer. It will automatically prompt for elevation, after which it will close `explorer.exe` and install the necessary files. When done, you will see the desktop again and the Windows 10 taskbar.
 3. Right-click the taskbar and choose "Properties".
 4. To change the taskbar style, go to the "Taskbar" section and look for "Taskbar style".
