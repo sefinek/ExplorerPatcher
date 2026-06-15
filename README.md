@@ -17,13 +17,15 @@ This project aims to enhance the working environment on Windows.
 
 That's it!
 
+> [!WARNING]  
+> **False antivirus detections**: the setup files are not digitally signed, so Windows Defender, SmartScreen, or other antivirus software may flag them as a threat and block them from running (this is a false positive).
+> Just make sure you download the file (`ep_setup.exe` or `ep_setup_arm64.exe`) from a trusted source, such as [GitHub Releases](https://github.com/valinet/ExplorerPatcher/releases/latest).
+>
+> **Windows updates**: with each new Windows 11 release, Microsoft removes more and more of the features left over from Windows 10.
+> ExplorerPatcher reimplements them on its own and grafts them back into the system, so after major Windows updates some features may temporarily stop working until the project catches up with the new version of Windows.
+
 > [!NOTE]  
 > Some features may be unavailable on some Windows versions.
-
-> [!WARNING]  
-> **False antivirus detections**: the setup files are not digitally signed, so Windows Defender, SmartScreen, or other antivirus software may flag them as a threat and block them from running (this is a false positive). Just make sure you download the file (`ep_setup.exe` or `ep_setup_arm64.exe`) from a trusted source, such as [GitHub Releases](https://github.com/valinet/ExplorerPatcher/releases/latest).
-> 
-> **Windows updates**: with each new Windows 11 release, Microsoft removes more and more of the features left over from Windows 10. ExplorerPatcher reimplements them on its own and grafts them back into the system, so after major Windows updates some features may temporarily stop working until the project catches up with the new version of Windows.
 
 
 ## Uninstalling
