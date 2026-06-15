@@ -54,5 +54,7 @@ If you find this project essential to your daily life, please consider donating 
 
 Join our Discord server if you need support, want to chat regarding this project, or just want to hang out with us!
 
-[![Join on Discord](https://discordapp.com/api/guilds/1155912047897350204/widget.png?style=shield)](https://discord.gg/gsPcfqHTD2)
+<p align="center">
+  <a href="https://discord.gg/gsPcfqHTD2"><img src="https://discordapp.com/api/guilds/1155912047897350204/widget.png?style=shield" alt="Join on Discord"></a>
+</p>
 
