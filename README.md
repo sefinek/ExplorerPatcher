@@ -1,6 +1,7 @@
 # ExplorerPatcher
 
 This project aims to enhance the working environment on Windows.
+[Read more on the Wiki »](https://github.com/valinet/ExplorerPatcher/wiki)
 
 
 ## How to?
@@ -30,15 +31,17 @@ That's it!
 
 ## Uninstalling
 
-- Right-click the taskbar then click "Properties" or search for "ExplorerPatcher", and go to "Uninstall" section or
-- Use "Programs and Features" in Control Panel, or "Apps and features" in the Settings app or
-- Run `ep_setup.exe /uninstall` or
-- Rename `ep_setup.exe` to `ep_uninstall.exe` and run that.
+You can uninstall ExplorerPatcher using any of the following methods:
+
+- Right-click the taskbar, click "Properties" (or search for "ExplorerPatcher"), and go to the "Uninstall" section.
+- Use "Programs and Features" in Control Panel, or "Apps and features" in the Settings app.
+- Run `ep_setup.exe /uninstall`.
+- Rename `ep_setup.exe` to `ep_uninstall.exe` and run it.
 
 
 ## Updating
 
-- The program features built-in updates: go to "Properties" - "Updates" to configure, check for and install the latest updates. Learn more [here](https://github.com/valinet/ExplorerPatcher/wiki/Configure-updates).
+- The program features built-in updates: go to "Properties" > "Updates" to configure, check for and install the latest updates. Learn more [here](https://github.com/valinet/ExplorerPatcher/wiki/Configure-updates).
 - Download the latest version's [setup file for x64](https://github.com/valinet/ExplorerPatcher/releases/latest/download/ep_setup.exe) or [setup file for ARM64](https://github.com/valinet/ExplorerPatcher/releases/latest/download/ep_setup_arm64.exe) and simply run it.
 
 
@@ -53,4 +56,3 @@ Join our Discord server if you need support, want to chat regarding this project
 
 [![Join on Discord](https://discordapp.com/api/guilds/1155912047897350204/widget.png?style=shield)](https://discord.gg/gsPcfqHTD2)
 
-[Read more](https://github.com/valinet/ExplorerPatcher/wiki)
