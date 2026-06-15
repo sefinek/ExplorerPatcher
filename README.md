@@ -19,14 +19,17 @@ This project aims to enhance the working environment on Windows.
 That's it!
 
 > [!WARNING]  
-> » **False antivirus detections**: the setup files are not digitally signed, so Windows Defender, SmartScreen, or other antivirus software may flag them as threats and block them from running (these are false positives). Make sure you download the setup file only from [valinet/ExplorerPatcher/releases](https://github.com/valinet/ExplorerPatcher/releases/latest).
+> **False antivirus detections**: the setup files are not digitally signed, so Windows Defender, SmartScreen, or other antivirus software may flag them as threats and block them from running (these are false positives).
+> Make sure you download the setup file only from [valinet/ExplorerPatcher/releases](https://github.com/valinet/ExplorerPatcher/releases/latest).
 > If Windows Defender keeps blocking or removing the setup file, add an exclusion for it:
 > 1. Open **Windows Security** > **Virus & threat protection**.
 > 2. Under **Virus & threat protection settings**, click **Manage settings**.
 > 3. Scroll down to **Exclusions** and click **Add or remove exclusions**.
 > 4. Click **Add an exclusion**, choose **File**, and select the downloaded setup file.
->
-> » **Windows updates**: with each new Windows 11 release, Microsoft removes more and more of the features inherited from Windows 10. ExplorerPatcher reimplements these features and integrates them back into the system, so after major Windows updates some features may temporarily stop working until the project is updated to support the new Windows version.
+
+> [!WARNING]  
+> **Windows updates**: with each new Windows 11 release, Microsoft removes more and more of the features inherited from Windows 10.
+> ExplorerPatcher reimplements these features and integrates them back into the system, so after major Windows updates some features may temporarily stop working until the project is updated to support the new Windows version.
 
 > [!NOTE]  
 > Some features may be unavailable on certain Windows versions.
